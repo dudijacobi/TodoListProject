@@ -24,23 +24,36 @@
   "devDependencies": {
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/uuid": "^8.3.0",
     "awesome-typescript-loader": "^5.2.1",
     "body-parser": "^1.19.0",
+    "css-loader": "^5.2.0",
     "express": "^4.17.1",
     "express-pino-logger": "^6.0.0",
     "html-webpack-plugin": "^5.3.1",
     "pino-colada": "^2.1.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
     "source-map-loader": "^2.0.1",
+    "style-loader": "^2.0.0",
     "typescript": "^4.2.3",
     "webpack": "^5.28.0",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@types/classnames": "^2.2.11",
+    "@types/react-redux": "^7.1.16",
+    "classnames": "^2.2.6",
     "node-env-run": "^4.0.2",
+    "node-sass": "^5.0.0",
     "nodemon": "^2.0.7",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "uuid": "^8.3.2"
   }
 }

@@ -1,0 +1,9 @@
+.app {
+  height: 100%;
+  width: 100%;
+
+  &.dark {
+    background-color: #212124;
+    color: white;
+  }
+}
