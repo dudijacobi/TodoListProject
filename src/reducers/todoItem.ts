@@ -16,12 +16,11 @@ const todoItemReducer = (
     case "ADD":
       return [...state, { id: v4(), ...action.payload }];
     case "REMOVE":
-    // const index = state.indexOf(action.payload);
-    // if (index > -1) {
-    //   return state.splice(index, 1);
-    // }
-    // return state;
+      return state.filter((item) => item.id !== action.payload);
     case "EDIT":
+      return state.map((item) =>
+        item.id === action.payload.id ? action.payload : item
+      );
     default:
       return state;
   }

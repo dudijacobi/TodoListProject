@@ -1,4 +1,7 @@
 .common-section {
+  overflow: hidden;
+  text-overflow: ellipsis;
+
   .label {
     margin-right: 5px;
   }
